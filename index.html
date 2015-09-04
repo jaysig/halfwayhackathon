@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title>Mr. Bigglesworth Magical Fortress</title>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</header>
+<main>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/choices.js"></script>
+  <div class="container">
+    <h1 class="center-align card-panel hoverable"> Mr. Bigglesworth Magical Fortress </h1>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Other Stories</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="http://www.google.com">Trump Tales</a></li>
+          <li><a href="http://www.producthunt.com">Coder Quest</a></li>
+          <li><a href="http://www.hackreactor.com">Puff the Magic Hacker</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+
+    <body>
+      <div class="section">
+        <h5>Story Background</h5>
+        <blockquote>
+          You are a young child of an unknown gender or age. You have been invited to visit the famed Mr. Bigglesworth Magical Fortress in the clouds above your home. It is unknown how you got there, but perhaps you can find out. You are also unsure of what you
+          want to do at the fortress. You have heard mystical stories and dark whispers of something going on inside the fortress? Care to find out?
+        </blockquote>
+      </div>
+      <div class="divider"></div>
+      <br>
+
+
+      <p id="opening">
+        You see something resembling a man approaching you. You can not fully grasp if it is fact human or something else. You decide that it is at least male. The man extends his hand, "Welcome to Mr. Bigglesworth Magical Fortress." "My name is Godfrey and I
+        manage the fortress." "Might I know your name"?
+      </p>
+      <div class="row" id="name-quest">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <!-- Not sure how to prevent changing -->
+          </button>
+          <button onclick="jq();">Make name disappear</button>
+        </form>
+      </div>
+      <div id="choiceA">
+        <p id="choice1"></p>
+      </div>
+      <div class="center-align z-depth-1">
+        <h2> Choices </h2>
+
+      </div>
+      <div class="row">
+        <!-- 12 col rows -->
+        <div class="col s4 center-align"id="cl" ><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        </button>
+        </div>
+        <div class="col s4 important center-align"id="cc"><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        </button></div>
+        <div class="col s4 center-align" ><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        </button></div>
+      </div>
+    </body>
+
+
+
+    <div class="divider"></div>
+    <h2> Sport Victories </h2>
+    <div class="row">
+      <div class="col s6 offset-s6 grid-example">
+        <span class="flow-text">Beach Volley Ball Champion</span>
+      </div>
+      <div class="col s6 offset-s3 grid-example">
+        <span class="flow-text">Island Run</span>
+      </div>
+      <div class="col s6  grid-example">
+        <span class="flow-text">Backflip into the pool.</span>
+      </div>
+      <div class="col s6 offset-s3 grid-example">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <img src="https://i.imgur.com/TJGO4PQ.jpg" alt="Mad Skillz">
+        </a>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <h2 class="center-align"> Trump Favorite Food </h2>
+    <table class="hoverable centered">
+      <thead>
+        <tr>
+          <th data-field="id">Location</th>
+          <th data-field="name">Menu Item</th>
+          <th data-field="price">Item Price</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>New York</td>
+          <td>Stony's Steak</td>
+          <td>$300.00</td>
+        </tr>
+        <tr>
+          <td>Hong Kong</td>
+          <td>Landmark Mooncake</td>
+          <td>$250.000</td>
+        </tr>
+        <tr>
+          <td>Tokyo</td>
+          <td>Jiro's Sushi Special</td>
+          <td>$3000</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="divider"></div>
+    <h2 class="right-align"> Alternative Encounters </h2>
+    <p class="flow-text"> We are hunting with <a href="http://paranormaldate.com"> Alternative Encounters </a> for some strange creatures beyond Donald Trump. We have found <b> Big Foot <i> Loch Ness Monster
+      , and even Jonathan the mythical Programmer </i> </b></p>
+    <!-- We are still searching for the Beatles -->
+    <div class="divider"></div>
+    <h2>Media</h2>
+    <div class="video-container">
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/OTRmyXX6ipU" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <br>
+    <div class="divider"></div>
+    <div>
+      More Trump News
+      <ul class="pagination">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col 16 s12">
+        <p class="grey-text center-align">We will be sure to keep the site updated</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <p class="center-align">2015 Copyright Travlers 4 Trump</p>
+      <a class="grey-text text-lighten-4 right" href="#!">More Links Soon</a>
+    </div>
+  </div>
+</footer>
+
+</html>
+
+<!-- This <em>IS</em> world's most fabulously colorful web page!
+
+Contact Mr. Trump about his trip <a href="mailto:mr.trump@election2016.com?Subject=Voter%20Registration"> here </a>
+
+<h2> Today's Destination </h2>
+<h3> Tahiti </h3>
+<iframe class ="weather" src="http://www.weather.com/weather/tenday/l/TahitiPapeete+French+Polynesia+FPXX0001:1:FP" width="800" height="300"></iframe>
+<hr>
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243277.73445044094!2d-149.37296000000003!3d-17.6873196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x741875d07c6dd74d%3A0x9bc07a7a09c35711!2sFrench+Polynesia!5e0!3m2!1sen!2sus!4v1440524471016" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
