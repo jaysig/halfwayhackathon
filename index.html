@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
   <title>Mr. Bigglesworth Magical Fortress</title>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</header>
+</head>
 <main>
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -43,38 +43,56 @@
         <form class="col s12">
           <div class="row">
             <div class="input-field col s6">
-              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-              <label for="first_name">First Name</label>
+              <input placeholder="Placeholder" id="first_nameA" type="text" class="validate">
+              <label for="first_name" >First Name</label>
             </div>
           </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-            <!-- Not sure how to prevent changing -->
+          <button class="btn waves-effect waves-light" type="button" name="action" onclick="fn();">Submit
+
           </button>
-          <button onclick="jq();">Make name disappear</button>
         </form>
+        <br>
+        <br>
+        <br>
       </div>
+      <br>
+      <br>
+      <!-- <button onclick="jq();">Make name disappear</button> -->
       <div id="choiceA">
         <p id="choice1"></p>
+        <br>
       </div>
-      <div class="center-align z-depth-1">
+      <div id="choiceB">
+        <br>
+        <p id="choice2"></p>
+        <br>
+      </div>
+      <div id="choiceC">
+        <br>
+        <p id="choice3"></p>
+        <br>
+      </div>
+      <div class="divider"></div>
+      <br>
+      <!-- <div class="center-align z-depth-1">
         <h2> Choices </h2>
 
-      </div>
-      <div class="row">
+      </div> -->
+      <div class="row" id="pas">
         <!-- 12 col rows -->
-        <div class="col s4 center-align"id="cl" ><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <div class="col s4 center-align"id="cl" ><button class="btn waves-effect waves-light" type="submit" name="action" onclick="bt();"><span id="cl12">ChoiceA</span>
         </button>
         </div>
-        <div class="col s4 important center-align"id="cc"><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <div class="col s4 important center-align"id="cc"><button class="btn waves-effect waves-light" type="submit" name="action" onclick="no();"><span id="cl13">ChoiceB</span>
         </button></div>
-        <div class="col s4 center-align" ><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <div class="col s4 center-align"id="cr"><button class="btn waves-effect waves-light" type="submit" name="action"><span id="cl14">Choice</span>
         </button></div>
       </div>
     </body>
 
 
 
-    <div class="divider"></div>
+    <!-- <div class="divider"></div>
     <h2> Sport Victories </h2>
     <div class="row">
       <div class="col s6 offset-s6 grid-example">
@@ -91,8 +109,8 @@
           <img src="https://i.imgur.com/TJGO4PQ.jpg" alt="Mad Skillz">
         </a>
       </div>
-    </div>
-    <div class="divider"></div>
+    </div> -->
+    <!-- <div class="divider"></div>
     <h2 class="center-align"> Trump Favorite Food </h2>
     <table class="hoverable centered">
       <thead>
@@ -124,18 +142,18 @@
     <div class="divider"></div>
     <h2 class="right-align"> Alternative Encounters </h2>
     <p class="flow-text"> We are hunting with <a href="http://paranormaldate.com"> Alternative Encounters </a> for some strange creatures beyond Donald Trump. We have found <b> Big Foot <i> Loch Ness Monster
-      , and even Jonathan the mythical Programmer </i> </b></p>
+      , and even Jonathan the mythical Programmer </i> </b></p> -->
     <!-- We are still searching for the Beatles -->
-    <div class="divider"></div>
-    <h2>Media</h2>
-    <div class="video-container">
+    <!-- <div class="divider"></div>
+    <h2>Media</h2> -->
+    <!-- <div class="video-container">
       <iframe width="853" height="480" src="https://www.youtube.com/embed/OTRmyXX6ipU" frameborder="0" allowfullscreen></iframe>
-    </div>
+    </div> -->
     <br>
-    <div class="divider"></div>
+    <!-- <div class="divider"></div>
     <div>
-      More Trump News
-      <ul class="pagination">
+      More Trump News -->
+      <!-- <ul class="pagination">
         <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
         <li class="active"><a href="#!">1</a></li>
         <li class="waves-effect"><a href="#!">2</a></li>
@@ -143,7 +161,7 @@
         <li class="waves-effect"><a href="#!">4</a></li>
         <li class="waves-effect"><a href="#!">5</a></li>
         <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </main>
@@ -151,13 +169,13 @@
   <div class="container">
     <div class="row">
       <div class="col 16 s12">
-        <p class="grey-text center-align">We will be sure to keep the site updated</p>
+        <p class="grey-text center-align">Keep checking back for story updates</p>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-      <p class="center-align">2015 Copyright Travlers 4 Trump</p>
+      <p class="center-align">2015 Copyright Travlers Tales</p>
       <a class="grey-text text-lighten-4 right" href="#!">More Links Soon</a>
     </div>
   </div>
